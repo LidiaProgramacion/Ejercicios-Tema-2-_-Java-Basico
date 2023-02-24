@@ -1,0 +1,15 @@
+package EjerciciosTema2;
+public class ejerciciosTema2 {
+    public static void main (String[] args) {
+        int precio1 = 30;
+        int precio2 = 10;
+        float ivaAñadido = 5.99f;
+        int resultadoRebajas = precio1 - precio2;
+
+        System.out.println("El precio de esta camiseta en Rebajas es: " + resultadoRebajas + " €");
+    }
+    static <IVA> int suma(int resultadoRebajas,float ivaAñadido)  {
+        return (int) (resultadoRebajas + ivaAñadido);
+    }
+
+}
